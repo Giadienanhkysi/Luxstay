@@ -1,0 +1,44 @@
+:root{
+    --white-color: #fff;
+    --black-color: #000;
+    --text-color: #333;
+    --header-height: 80px;
+    --search-height: 48px;
+    --header-color: #555;
+    --hover-color: #f65e39;
+}
+
+*{
+    box-sizing: inherit;
+}
+
+html{
+    font-size: 62.5%;
+    line-height: 1.8rem;
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+}
+
+.circle-btn{
+    position: absolute;
+    background-color: white;
+    border-radius: 50%;
+    width: 56px;
+    height: 56px;
+    border: none;
+    box-shadow: 0 0 7px -4px black;
+    z-index: 1;
+    cursor: pointer;
+    top: 40%;
+}
+.pre-btn{
+    left: 0;
+}
+.next-btn{
+    right: -0.7%;
+}
+.circle-btn--disabled{
+    opacity: 0.4;
+    cursor: default;
+}
+
