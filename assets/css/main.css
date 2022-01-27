@@ -420,11 +420,12 @@ html a:hover{
 
 .container{
    background: white;
-   margin-top: calc( var(--header-height) + 4.4rem);
+   margin-top: var(--header-height);
 }
 .slide-img{
     width: 100%;
     border-radius: 20px;
+    margin-top: 4.4rem;
 }
 .welcome{
     margin-top: 42px;
