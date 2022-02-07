@@ -484,7 +484,7 @@ html a:hover{
     font-size: 1.3rem;
 }
 
-#descript__title{
+.descript__title{
     line-height: 1;
 }
 
@@ -507,14 +507,14 @@ html a:hover{
     margin-top: 1.2rem;  
 }
 
-#recommend__title{
+.recommend__title{
     text-transform: uppercase;
     font-size: 1.2rem;
     letter-spacing: 0.1rem; 
     margin: 0 0 0.8rem 0;  
 }
 
-#recommend__intro{
+.recommend__intro{
     font-size: 1.6rem;    
     line-height: 2.4rem;
     margin: 0 0 4.8rem 0
@@ -524,7 +524,7 @@ html a:hover{
     height: 19rem;
     width: 103%;
 }
-#discovery-label{
+.discovery-label{
     position: absolute;
     color: white;
     background-color: #bebebe;
@@ -535,7 +535,7 @@ html a:hover{
     top: 20%;
 }
 
-#discovery-label{
+.discovery-label{
     top: 6%;
     left: 6%;
     text-transform: uppercase;
@@ -543,7 +543,7 @@ html a:hover{
     letter-spacing: 0.2rem;
 }
 
-#discovery-title{
+.discovery-title{
     position: absolute;
     font-size: 1.8rem;
     color: white;
